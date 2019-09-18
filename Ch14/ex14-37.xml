@@ -1,0 +1,3 @@
+	<sql-insert callable="true">{call createEvent (?, ?, ?)}</sql-insert>
+	<sql-update callable="true">{call updateEvent(?,?,?,?)}</sql-update>
+	<sql-delete callable="true">{call deleteEvent(?,?)}</sql-delete>

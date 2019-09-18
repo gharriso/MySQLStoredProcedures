@@ -1,0 +1,5 @@
+#Thu Feb 02 22:48:47 EST 2006
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.MYECLIPSE_LIB_HOME=c\:/Program Files/MyEclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_4.1.0/data/libraryset
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch
+org.eclipse.jdt.core.classpathVariable.MYECLIPSE_HIBERNATE_HOME=c\:/Program Files/MyEclipse/eclipse/plugins/org.hibernate.eclipse_4.1.0/myeclipse-data

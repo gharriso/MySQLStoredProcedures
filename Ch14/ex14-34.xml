@@ -1,0 +1,8 @@
+	<sql-query name="getRecentEventsSP" callable="true">
+		<return alias="event" class="Event">
+			<return-property name="id" column="EVENT_ID" />
+			<return-property name="title" column="EVENT_TITLE" />
+			<return-property name="date" column="EVENT_DATE" />
+		</return>
+		{ call getRecentEvents(?) }
+	</sql-query>

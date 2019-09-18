@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\CS_SP_Example2.exe
+bin\Debug\CS_SP_Example2.pdb
+obj\Debug\CS_SP_Example2.exe
+obj\Debug\CS_SP_Example2.pdb
+bin\Release\CS_SP_Example2.exe
+bin\Release\CS_SP_Example2.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\CS_SP_Example2.exe
+obj\Release\CS_SP_Example2.pdb

@@ -1,0 +1,14 @@
+bin\VBSP_example.exe.config
+obj\Debug\VBSP_example.exe
+obj\Debug\VBSP_example.xml
+obj\Debug\VBSP_example.pdb
+bin\VBSP_example.exe
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConsoleApplication1.MyResources.resources
+obj\Debug\VBSP_example.vbproj.GenerateResource.Cache
+bin\ConsoleApplication1.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ConsoleApplication1.MyResources.resources
+obj\Release\VBSP_example.vbproj.GenerateResource.Cache
+obj\Release\VBSP_example.exe
+obj\Release\ConsoleApplication1.xml

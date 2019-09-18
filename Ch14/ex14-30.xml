@@ -1,0 +1,19 @@
+<hibernate-mapping>
+	<class name="Event" table="EVENTS">
+		<id name="id" column="EVENT_ID">
+			<generator class="increment" />
+		</id>
+		<property name="title" />
+		<property name="date" type="timestamp" column="EVENT_DATE" />
+
+		<loader query-ref="getEventSP"></loader>
+	</class>
+
+	<sql-query name="getEventSP" callable="true">
+		<return alias="event" class="Event">
+			<return-property name="id" column="EVENT_ID" />
+			<return-property name="title" column="TITLE" />
+			<return-property name="date" column="EVENT_DATE" />
+		</return>
+		{ call getEvent(?) }
+	</sql-query>

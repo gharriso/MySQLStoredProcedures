@@ -1,0 +1,62 @@
+!SESSION 2006-02-02 22:48:35.499 -----------------------------------------------
+eclipse.buildId=M20050929-0840
+java.version=1.5.0_06
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_AU
+Command-line arguments:  -data C:\Src\mysql\book -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Commands should really have a category, not categoryId='': plug-in='org.epic.perleditor', commandId='org.epic.perleditor.uncomment'.
+!SUBENTRY 1 org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Commands should really have a category, not categoryId='': plug-in='org.epic.perleditor', commandId='org.epic.perleditor.comment'.
+!SUBENTRY 1 org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Commands should really have a category, not categoryId='': plug-in='org.epic.perleditor', commandId='org.epic.perleditor.contentassist'.
+!SUBENTRY 1 org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Commands should really have a category, not categoryId='': plug-in='org.epic.perleditor', commandId='org.epic.perleditor.htmlexport'.
+!SUBENTRY 1 org.eclipse.ui 1 0 2006-02-02 22:48:36.680
+!MESSAGE Commands should really have a category, not categoryId='': plug-in='org.epic.perleditor', commandId='org.epic.perleditor.formatsource'.
+
+!ENTRY org.eclipse.ui 2 0 2006-02-02 22:48:36.750
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2006-02-02 22:48:36.750
+!MESSAGE Cannot bind to an undefined command: plug-in='org.epic.perleditor', commandId='org.epic.eclipse.perleditor.uncomment'.
+!SUBENTRY 1 org.eclipse.ui 2 0 2006-02-02 22:48:36.750
+!MESSAGE Cannot bind to an undefined command: plug-in='org.epic.perleditor', commandId='org.epic.eclipse.perleditor.comment'.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:43.771
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:43.881
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:43.941
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.61
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.171
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.291
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.411
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.662
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.802
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.872
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2006-02-02 22:48:44.952
+!MESSAGE Installed snippet library: c:\tools\MyEclipse\eclipse\plugins\com.genuitec.eclipse.wizards_4.0.1\snippets\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core 1 0 2006-02-02 22:49:04.240
+!MESSAGE Unable to locate .myeclipse.properties file

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="Event" table="EVENTS">
+		<id name="id" column="EVENT_ID">
+			<generator class="increment" />
+		</id>
+
+		<property name="date" type="timestamp" column="EVENT_DATE" />
+
+		<property name="title" />
+
+		<loader query-ref="getEventSP"></loader>
+
+		<sql-insert callable="true">{call createEvent (?, ?, ?)}</sql-insert>
+		<sql-update callable="true">{call updateEvent(?,?,?,?)}</sql-update >
+		<sql-delete callable="true">{call deleteEvent(?,?)}</sql-delete >
+		
+		<!-- sql-update callable="true">{? = call fupdateEvent(?,?,?)}</sql-update-->
+
+
+	</class>
+
+
+
+	<sql-query name="getEventSP" callable="true">
+		<return alias="event" class="Event">
+			<return-property name="id" column="EVENT_ID" />
+			<return-property name="title" column="TITLE" />
+			<return-property name="date" column="EVENT_DATE" />
+		</return>
+		{ call getEvent(?) }
+	</sql-query>
+
+	<sql-query name="getRecentEventsSP" callable="true">
+		<return alias="event" class="Event">
+			<return-property name="id" column="EVENT_ID" />
+			<return-property name="title" column="EVENT_TITLE" />
+			<return-property name="date" column="EVENT_DATE" />
+		</return>
+		{ call getRecentEvents(?) }
+	</sql-query>
+
+
+	<sql-query name="getEventSQL">
+		<return alias="e" class="Event" lock-mode="upgrade" />
+		SELECT /*Guy1*/ title AS {e.title}, EVENT_ID AS {e.id}, EVENT_DATE AS {e.date} FROM events WHERE event_id=? FOR UPDATE
+	</sql-query>
+
+
+
+</hibernate-mapping>
